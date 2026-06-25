@@ -1,0 +1,115 @@
+.skills {
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.skills-grid {
+  max-width: 1000px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+
+  gap: 25px;
+}
+
+.skill-card {
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 15px;
+
+  transition: all 0.3s ease;
+
+  cursor: pointer;
+}
+
+.skill-card svg {
+  font-size: 3rem;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px) scale(1.05);
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.skill-card span {
+  font-weight: 600;
+}
+
+.skill-card:nth-child(1):hover svg {
+  color: #E34F26;
+}
+
+.skill-card:nth-child(2):hover svg {
+  color: #1572B6;
+}
+
+.skill-card:nth-child(3):hover svg {
+  color: #F7DF1E;
+}
+
+.skill-card:nth-child(4):hover svg {
+  color: #61DAFB;
+}
+
+.skill-card:nth-child(5):hover svg {
+  color: #F89820;
+}
+
+.skill-card:nth-child(6):hover svg {
+  color: #6DB33F;
+}
+
+.skill-card:nth-child(7):hover svg {
+  color: #4479A1;
+}
+
+.skill-card:nth-child(8):hover svg {
+  color: #F05032;
+}
+
+.skill-card:nth-child(9):hover svg {
+  color: #181717;
+}
+
+.skill-card:nth-child(10):hover svg {
+  color: #007ACC;
+}
+
+.skill-card:nth-child(11):hover svg {
+  color: #FF6C37;
+}
+
+@media (max-width: 768px) {
+  .skills h2 {
+    font-size: 2.2rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  .skill-card svg {
+    font-size: 2.2rem;
+  }
+}
