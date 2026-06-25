@@ -136,16 +136,6 @@ src/
 
 ---
 
-## Author
-
-**Sindhu Kola**
-
-Aspiring Java Full Stack Developer
-
-* Email: (mailto:kolasindhu4@gmail.com)
-
----
-
 ## License
 
 This project is created for personal portfolio and educational purposes.
