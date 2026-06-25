@@ -1,16 +1,153 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is my personal portfolio website built using ReactJS and Vite. The portfolio showcases my profile, education, technical skills, and contact information in a clean, modern, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The website is designed to provide recruiters and hiring managers with a quick overview of my background, technical expertise, and career aspirations as a Java Full Stack Developer.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Responsive design for desktop, tablet, and mobile devices
+* Modern and professional user interface
+* Smooth scrolling navigation
+* Interactive social media links
+* Skills section with hover animations
+* Education timeline
+* Contact section for professional networking
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Sections
+
+### Home
+
+Introduction with profile image, professional summary, and social links.
+
+### About Me
+
+Brief overview of my background, interests, and career goals.
+
+### Education
+
+Academic qualifications and educational journey.
+
+### Skills
+
+Technical skills displayed with technology icons and interactive hover effects.
+
+### Contact
+
+Professional contact information including GitHub, LinkedIn, and Email.
+
+---
+
+## Technologies Used
+
+### Frontend
+
+* ReactJS
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+
+### Libraries
+
+* React Icons
+
+### Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## Project Structure
+
+```text
+src/
+│
+├── assets/
+│   └── images/
+│
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── About/
+│   ├── Education/
+│   ├── Skills/
+│   ├── Contact/
+│   └── Footer/
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Future Enhancements
+
+* Dark Mode Support
+* Projects Section
+* Certifications Section
+* Resume Download Feature
+* Additional Animations
+* Custom Domain Deployment
+
+---
+
+## Author
+
+**Sindhu Kola**
+
+Aspiring Java Full Stack Developer
+
+* GitHub: https://github.com/your-github-username
+* LinkedIn: https://linkedin.com/in/your-linkedin-profile
+* Email: [your-email@example.com](mailto:your-email@example.com)
+
+---
+
+## License
+
+This project is created for personal portfolio and educational purposes.
