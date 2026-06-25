@@ -142,9 +142,7 @@ src/
 
 Aspiring Java Full Stack Developer
 
-* GitHub: https://github.com/your-github-username
-* LinkedIn: https://linkedin.com/in/your-linkedin-profile
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* Email: [your-email@example.com](mailto:kolasindhu4@gmail.com)
 
 ---
 
