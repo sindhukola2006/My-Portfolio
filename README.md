@@ -142,7 +142,7 @@ src/
 
 Aspiring Java Full Stack Developer
 
-* Email: [your-email@example.com](mailto:kolasindhu4@gmail.com)
+* Email: (mailto:kolasindhu4@gmail.com)
 
 ---
 
